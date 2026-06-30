@@ -31,25 +31,6 @@ Example workflow:
 6. The location sends a status report to GitHub.
 7. The administrator runs the report script to verify which locations reported successfully.
 
-## Repository Structure
-
-Recommended structure:
-
-```text
-.
-├── README.md
-├── SECURITY.md
-├── .gitignore
-├── scripts/
-│   ├── Download-Update.ps1
-│   └── Generate-DailyReport.ps1
-├── data/
-│   └── PLU_Update.txt
-└── docs/
-    ├── CONFIGURATION.md
-    └── WORKFLOW.md
-```
-
 ## Scripts
 
 ### `scripts/Download-Update.ps1`
