@@ -11,10 +11,10 @@ $Destination   = "$env:USERPROFILE\Desktop\$FileName"
 $TempFile      = "$env:TEMP\$FileName"
 
 # Unique Store / PC ID
-$SiteID        = "LMHOU90"
+$SiteID        = "Location-01"
 
 # GitHub Configuration
-$GitHubToken   = "github_pat_ *************************************** " (Token was erased for security reasons)
+$GitHubToken   = $env:GITHUB_TOKEN
 $RepoOwner     = "jsocarras96"
 $RepoName      = "Ishida-Updates"
 $Branch        = "main"
@@ -251,5 +251,3 @@ catch {
     Save-PendingReport -Status "Local File Update Failed"
 }
 
-pause
-```
