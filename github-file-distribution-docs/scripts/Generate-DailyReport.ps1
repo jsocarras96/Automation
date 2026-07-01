@@ -13,8 +13,8 @@ $MasterLocations = @(
 # ==========================================
 # GITHUB CONFIGURATION
 # ==========================================
-$RepoOwner = "jsocarras96"
-$RepoName  = "Ishida-Updates"
+$RepoOwner = "your-github-username"
+$RepoName  = "your-repository-name"
 
 # Current date (daily folder)
 $TodayDate = Get-Date -Format "yyyy-MM-dd"
